@@ -9,8 +9,10 @@ public class LosAngeles extends City{
 
 	@Override
 	double getAnnualTaxes() {
+		double AnnualTaxes = population * growthRate * (growthRate * 0.5);
+		System.out.println(AnnualTaxes);
 		// TODO Auto-generated method stub
-		return 0;
+		return AnnualTaxes;
 	}
 
 }
